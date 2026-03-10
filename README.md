@@ -39,3 +39,4 @@
 
 ### Managing complexity of model: In order to avoid an overfitted model, I use cross-validation to find the optimum minimum leaf samples.This improved the accuracy score from 58.97% to 65.38%.
 
+### References: Huebner, R. & Patalano, C. 2019. Human resources data set. Available: https://kaggle.com/rhuebner/human-resources-data-set [2019, October 11].
