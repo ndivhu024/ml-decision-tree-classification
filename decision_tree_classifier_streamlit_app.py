@@ -31,7 +31,7 @@ st.header("Dataset")
 st.write(
     "This project uses a synthetic Human Resources dataset "
     "[(Source: Huebner & Patalano, 2019)](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set). "
-    "This dataset is used to train a model that predicts whether an employee is at risk of termination or voluntary resignation. "
+    "I use this dataset to train and build a model that predicts whether an employee is at risk of termination or voluntary resignation. "
     "If early indicators of employee attrition can be identified, organizations may be able to intervene and retain valuable talent."
 )
 
