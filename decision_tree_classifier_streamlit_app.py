@@ -120,6 +120,8 @@ test_size = st.slider('Set test subset size', 0.1, 0.5, 0.25)
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size ,random_state = 0)
 
+st.text(f"Test sample size = {X_test.shape[0]}, and Training sample size = {X_train.shape[0]}")
+
 st.subheader('Fitting training dataset to a tree-based classification model')
 classifier = DecisionTreeClassifier(random_state=0)
 classifier.fit(X_train, y_train)
